@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kensho Hara | Nagoya Univ. Mase Lab.</title>
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="./fonts/GenShinGothic.css">
+<link rel="stylesheet" href="page.css">
+<script src="./js/smooth-scroll.js"></script>
+</head>
+
+<body class="common">
+  <header>
+    <nav>
+      <ul class="navi" data-scroll-header>
+        <li><a href="#" data-scroll class="navi--item">Top</a></li>
+        <li><a href="#profile" data-scroll class="navi--item">Profile</a></li>
+        <li><a href="#research" data-scroll class="navi--item">Research</a></li>
+        <li><a href="#publications" data-scroll class="navi--item">Publications</a></li>
+        <li><a href="./index.html" class="navi--item">Japanese</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="image-desc">
+      <img class="image-desc--img" src="./hara.jpg" alt="Kensho Hara"/>
+      <section class="image-desc-txt">
+        <h1 class="<image-desc--heading">Kensho Hara</h1>
+        <p>
+          Graduate School of Information Science <br />
+          Department of Systems and Social Informatics <br />
+          Nagoya University <br />
+          Ph.D. Student, Mase Laboratory <br />
+        </p>
+        <p>
+          E-mail: kensho [at] cmc.ss.is.nagoya-u.ac.jp <br />
+          TEL/FAX: 052-789-5630
+        </p>
+      </section>
+    </article>
+    <article class="info">
+      <h1 class="info--heading" id="profile">Profile</h1>
+      <section>
+        <h2 class="info--heading2">Education</h2>
+        <p class="info--txt">
+          Bachelor's degree in Engineering, Nagoya University, 2012 <br />
+          Master's degree in Information Science, Nagoya University, 2014 <br />
+        </p>
+      </section>
+    </article>
+    <article class="info">
+      <h1 class="info--heading" id="research">Research</h1>
+      <section>
+        <h2 class="info--heading2">Research Projects</h2>
+        <p class="info--txt">
+          Human action recognition and detection in videos <br />
+          (Under construction...)
+        </p>
+      </section>
+    </article>
+    <article class="info">
+      <h1 class="info--heading" id="publications">Publications</h1>
+      <section>
+        <h2 class="info--heading2">Journal Papers</h2>
+        <ol class="info--txt info--txt__list">
+          <li>
+            <a class="info--txt__weight_500">Kensho Hara</a>, Takatsugu Hirayama, Kenji Mase, <br />
+            <a class="info--txt__weight_600">"Vote Distribution Model for Hough-based Action Detection"</a>, <br />
+            IEICE Transactions on Information and Systems, Vol. E99-D, No. 11, pp. 2796–2808, 2016.
+          </li>
+          <li>
+            <a class="info--txt__weight_500">Kensho Hara</a>, Takatsugu Hirayama, Kenji Mase,<br />
+            <a class="info--txt__weight_600">"Simultaneous Recognition of Human Action and its Location Estimation Based on Multi-view Hough Voting"</a>， <br />
+            IEEJ Transactions on Electronics, Information and Systems, Vol. 134, No. 5, pp. 634–642, 2014. (IN JAPANESE)
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2 class="info--heading2">International Conference</h2>
+        <ol class="info--txt info--txt__list">
+          <li>
+            Xueting Wang, <a class="info--txt__weight_500">Kensho Hara</a>, Yu Enokibori, Takatsugu Hirayama, Kenji Mase, <br />
+            <a class="info--txt__weight_600">"Personal Multi-view Viewpoint Recommendation based on Trajectory Distribution of the Viewing Target"</a>, <br />
+            ACM Multimedia Conference (ACMMM), 2016. (Accepted.)
+          </li>
+          <li>
+            <a class="info--txt__weight_500">Kensho Hara</a>, Kenji Mase, <br />
+            <a class="info--txt__weight_600">"Hough-based Action Detection with Time-warped Voting"</a>, <br />
+            The 3rd Asian Conference on Pattern Recognition (ACPR), 2015.
+          </li>
+          <li>
+            <a class="info--txt__weight_500">Kensho Hara</a>, Takatsugu Hirayama, Kenji Mase, <br />
+            <a class="info--txt__weight_600">"Trend-Sensitive Hough Forests for Action Detection"</a>, <br />
+            International Conference on Image Processing (ICIP), 2014.
+          </li>
+          <li>
+            <a class="info--txt__weight_500">Kensho Hara</a>, Takatsugu Hirayama, Kenji Mase, <br />
+            <a class="info--txt__weight_600">"Simultaneous Action Recognition and Localization Based on Multi-View Hough Voting"</a>, <br />
+            The 2nd Asian Conference on Pattern Recognition (ACPR), 2013.
+          </li>
+        </ol>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    © 2015 Kensho Hara
+  </footer>
+  <script>
+	  smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+      selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+      speed: 500, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( toggle, anchor ) {} // Function to run after scrolling
+    });
+  </script>
+</body>
+</html>

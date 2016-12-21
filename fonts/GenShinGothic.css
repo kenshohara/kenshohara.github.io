@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'GenShinGothic_Web';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./GenShinGothic-Normal_sub.eot');
+  src: url('./font/GenShinGothic-Normal_sub.eot?#iefix') format('embedded-opentype'),
+  url('./GenShinGothic-Normal_sub.woff') format('woff'),
+  url('./GenShinGothic-Normal_sub.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'GenShinGothic_Web';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./GenShinGothic-Medium_sub.eot');
+  src: url('./font/GenShinGothic-Medium_sub.eot?#iefix') format('embedded-opentype'),
+  url('./GenShinGothic-Medium_sub.woff') format('woff'),
+  url('./GenShinGothic-Medium_sub.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'GenShinGothic_Web';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./GenShinGothic-Bold_sub.eot');
+  src: url('./font/GenShinGothic-Bold_sub.eot?#iefix') format('embedded-opentype'),
+  url('./GenShinGothic-Bold_sub.woff') format('woff'),
+  url('./GenShinGothic-Bold_sub.ttf')  format('truetype');
+}
