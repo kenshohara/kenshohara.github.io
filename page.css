@@ -118,6 +118,10 @@ html {
   padding-left: 1.7rem;
 }
 
+.info--txt__list_elem {
+  margin-bottom: 0.7rem;
+}
+
 .info--txt__weight_600 {
   font-weight: 600;
 }
