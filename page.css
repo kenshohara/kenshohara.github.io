@@ -9,7 +9,7 @@ html {
   color: #333333;
   flex-flow: column nowrap;
   font-family: "source-han-sans-japanese", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.6rem;
   justify-content: center;
   line-height: 2.4rem;
@@ -32,7 +32,7 @@ html {
 
 .navi--item {
   color: rgb(246, 246, 246);
-  font-weight: 600;
+  font-weight: 700;
   margin-left: 2rem;
   text-decoration: none;
 }
@@ -77,7 +77,7 @@ html {
 .image-desc--heading {
   line-height: 3.2rem;
   font-size: 3.2rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .info {
@@ -91,18 +91,18 @@ html {
   line-height: 3.2rem;
   margin: 0 0 2.4rem 0;
   padding: 0 0 0 0.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .info--heading2 {
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 1.6rem 0;
 }
 
 .info--heading3 {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 0.8rem 0;
 }
 
@@ -122,8 +122,8 @@ html {
   margin-bottom: 0.7rem;
 }
 
-.info--txt__weight_600 {
-  font-weight: 600;
+.info--txt__weight_700 {
+  font-weight: 700;
 }
 
 .info--txt__weight_500 {
