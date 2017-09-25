@@ -8,7 +8,7 @@ html {
   display: flex;
   color: #333333;
   flex-flow: column nowrap;
-  font-family: "GenShinGothic_Web", sans-serif;
+  font-family: "source-han-sans-japanese", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   justify-content: center;
