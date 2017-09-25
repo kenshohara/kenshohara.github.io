@@ -1,5 +1,14 @@
 html {
   font-size: 62.5%;
+  visibility: hidden;
+}
+
+.wf-loading {
+  visibility: hidden;
+}
+
+.wf-active {
+  visibility: visible;
 }
 
 .common {
