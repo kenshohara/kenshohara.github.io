@@ -1,0 +1,24 @@
+{
+  "name": "kenshohara.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenshohara/kenshohara.github.io.git"
+  },
+  "author": "Kensho Hara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenshohara/kenshohara.github.io/issues"
+  },
+  "homepage": "https://github.com/kenshohara/kenshohara.github.io#readme",
+  "dependencies": {
+    "mini.css": "^2.3.7",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
