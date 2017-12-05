@@ -16,9 +16,7 @@
   },
   "homepage": "https://github.com/kenshohara/kenshohara.github.io#readme",
   "dependencies": {
-    "mini.css": "^2.3.7",
-    "pug": "^2.0.0-rc.4",
-    "pug-cli": "^1.0.0-alpha6"
+    "mini.css": "^2.3.7"
   },
   "devDependencies": {},
   "description": ""
