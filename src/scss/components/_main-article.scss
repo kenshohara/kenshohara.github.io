@@ -1,0 +1,51 @@
+.main-article {
+  margin: 0 0 4.8rem 0;
+
+  > .heading1 {
+    border-left: solid 5px rgb(44,62,80);
+    font-size: 3.2rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    margin: 0 0 2.4rem 0;
+    padding: 0 0 0 0.5rem;
+    font-weight: 700;
+  }
+
+  > .heading2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 0 1.6rem 0;
+  }
+
+  > .heading3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 0 0.8rem 0;
+  }
+
+  > .text {
+    margin: 0 0 1.6rem 0;
+    padding: 0 0 0 0;
+  }
+
+  > .orderedlist {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    list-style-type: decimal;
+    padding-left: 1.7rem;
+  }
+
+  > .orderedlist > .element {
+    margin-bottom: 0.7rem;
+  }
+
+  > .unorderedlist {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding-left: 1.7rem;
+  }
+
+  > .unorderedlist > .element {
+    margin-bottom: 0.7rem;
+  }
+}

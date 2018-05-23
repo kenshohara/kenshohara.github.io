@@ -1,4 +1,11 @@
 .page-layout {
-  display: grid;
-  width: 3px;
+  align-items: center;
+  display: flex;
+  color: #333333;
+  flex-flow: column nowrap;
+  font-family: "source-han-sans-japanese", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  justify-content: center;
+  line-height: 2.4rem;
 }
