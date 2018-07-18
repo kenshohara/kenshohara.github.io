@@ -14,7 +14,7 @@ gulp.task('pug', () => {
 });
 
 gulp.task('sass', function () {
-  gulp.src(['src/scss/main.scss'])
+  gulp.src(['src/scss/style.scss'])
     .pipe(plumber())
     .pipe(sassGlob())
     .pipe(sassGlob())
