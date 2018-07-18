@@ -21,12 +21,6 @@ body {
     font-size: 3.2rem;
     font-weight: 700; }
 
-._bold {
-  font-weight: 700; }
-
-._medium {
-  font-weight: 500; }
-
 .main-article {
   margin: 0 0 4.8rem 0; }
   .main-article > .heading1 {
@@ -90,3 +84,9 @@ body {
   font-size: 1.6rem;
   justify-content: center;
   line-height: 2.4rem; }
+
+._bold {
+  font-weight: 700; }
+
+._medium {
+  font-weight: 500; }
