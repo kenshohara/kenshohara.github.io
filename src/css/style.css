@@ -41,7 +41,7 @@ body {
     height: 3.2rem;
     line-height: 3.2rem;
     margin: 0 0 2.4rem 0;
-    padding: 0 0 0 0.5rem;
+    padding: 0 0 0 .5rem;
     font-weight: 700; }
   .main-article > .heading2 {
     font-size: 2.4rem;
@@ -50,7 +50,7 @@ body {
   .main-article > .heading3 {
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 0 0 0.8rem 0; }
+    margin: 0 0 .8rem 0; }
   .main-article > .text {
     margin: 0 0 1.6rem 0;
     padding: 0 0 0 0; }
@@ -60,13 +60,13 @@ body {
     list-style-type: decimal;
     padding-left: 1.7rem; }
   .main-article > .orderedlist > .element {
-    margin-bottom: 0.7rem; }
+    margin-bottom: .7rem; }
   .main-article > .unorderedlist {
     font-size: 1.6rem;
     line-height: 2.4rem;
     padding-left: 1.7rem; }
   .main-article > .unorderedlist > .element {
-    margin-bottom: 0.7rem; }
+    margin-bottom: .7rem; }
 
 .nav-bar {
   align-items: center;
@@ -88,10 +88,10 @@ body {
     text-decoration: none; }
 
 .page-layout {
-  align-items: center;
   display: flex;
-  color: #333333;
-  flex-direction: column; }
+  align-items: center;
+  flex-direction: column;
+  color: #333; }
 
 ._bold {
   font-weight: 700; }
