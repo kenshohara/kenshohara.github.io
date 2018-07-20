@@ -2,9 +2,5 @@
   align-items: center;
   display: flex;
   color: #333333;
-  flex-flow: column nowrap;
-  font-weight: 300;
-  font-size: 1.6rem;
-  justify-content: center;
-  line-height: 2.4rem;
+  flex-direction: column;
 }
