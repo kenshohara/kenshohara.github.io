@@ -1,8 +1,7 @@
 .cover-article {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  height: 100vh;
+  grid-template-rows: auto auto auto;
   margin: 4.6rem 0 3.2rem 0;
   padding: 4.6rem 0 3.2rem 0;
 
@@ -35,5 +34,18 @@
     justify-self: start;
     margin-left: 1rem;
     margin-top: 1rem;
+  }
+
+  > .interests {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: end;
+    margin-right: 1rem;
+  }
+
+  > .education {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 1rem;
   }
 }
